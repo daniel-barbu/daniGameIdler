@@ -8,7 +8,7 @@ daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/g
 	 1. in a browser, go to your badges page on Steam
 	 2. ctrl+f and search for the word 'play'
 	 3. ctrl+click the games found to open them in new tabs
-	 4. copy the last number in the urls to this file
+	 4. copy the last number in the urls to the list
 4. Run `daniGameIdler.bat`.
 
 ### Known Issues

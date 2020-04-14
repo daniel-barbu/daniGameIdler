@@ -7,14 +7,6 @@ gameid
 .
 gameid
 
------------------------
--The delay and the repetitions are up to you. To efficiently get the game ids of games with card drops remaining:
--1. In a browser, go to your badges page on Steam
--2. ctrl+f and search for the word 'play'
--3. ctrl+click the games found to open them in new tabs
--4. Copy the last number in the url to this file
------------------------
-
 ----EXAMPLE (this will run every game in the list, for 3 seconds, 5 times; totaling 4games*3seconds*5repetitions=60seconds):
 3,5
 353640

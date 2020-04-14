@@ -1,0 +1,15 @@
+delay,repetitions
+gameid
+gameid
+gameid
+.
+.
+.
+gameid
+
+----EXAMPLE (this will run every game in the list, for 3 seconds, 5 times; totaling 4games*3seconds*5repetitions=60seconds):
+3,5
+353640
+730
+8930
+987400

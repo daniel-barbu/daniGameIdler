@@ -1,4 +1,4 @@
-<h1 align="center">daniGameIdler</h1>
+# daniGameIdler
 daniGameIdler works by exploiting SteamAchievementManager, which it requires. 
 
 ### Install Instructions

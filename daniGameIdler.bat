@@ -4,7 +4,7 @@ setlocal EnableDelayedExpansion
 
 set startTime=%time:~0,5%
 set /a reps=1
-set /p dly=<%path%ids.txt & set /a "dly=!dly:,*=!"
+set /p dly=<%path%ids.txt & set /a "dly=!dly:,*=!" & set /a dly+=1
 set /p repsMax=<%path%ids.txt & set /a "repsMax=!repsMax:*,=!"
 set /a gs=-1
 
@@ -23,9 +23,9 @@ if !reps! LEQ %repsMax% goto rep1
 exit
 :: -------- FUNCTIONS --------
 :fct
-title daniGameIdler.exe (%gs%g)(%dly%d), starting time: %startTime%, repetition: %reps%/%repsMax%  (%nr%/%gs%)
+title daniGameIdler (%gs%g)(%dly%s), repetition: %reps%/%repsMax%  (%nr%/%gs%)
 start %path%SAM.Game.exe %~1
 echo. & echo idling game #%~1
 C:\Windows\System32\ping.exe localhost -n %dly% >NUL
-C:\Windows\System32\taskkill.exe /IM SAM.Game.exe
+C:\Windows\System32\taskkill.exe /F /IM SAM.Game.exe
 EXIT /B 0

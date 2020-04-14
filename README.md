@@ -1,5 +1,5 @@
 # daniGameIdler
-daniGameIdler works by exploiting SteamAchievementManager, which it requires. 
+daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager), which it requires. 
 
 ### Install Instructions
 1. Download daniGameIdler from [here](https://github.com/daniel-barbu/daniGameIdler/archive/master.zip), extract it to a folder. 

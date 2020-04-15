@@ -1,7 +1,7 @@
 # daniGameIdler
 daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager), which it requires. 
 
-### Install Instructions
+### installation
 1. Download daniGameIdler from [here](https://github.com/daniel-barbu/daniGameIdler/archive/master.zip), extract `daniGameIdler.bat` and `ids.txt` to a **folder without spaces in it's name**. 
 2. Download `SteamAchievementManager-x.x.xx.zip` from [here](https://github.com/gibbed/SteamAchievementManager/releases), extract `SAM.API.dll` and `SAM.Game.exe` to the same folder.
 3. Edit the `ids.txt` like so:

@@ -2,7 +2,7 @@
 daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager), which it requires. 
 
 ### How to use
-1. Download `daniGameIdler.rar` from [here](https://github.com/daniel-barbu/daniGameIdler/releases/latest), extract its contents to a **folder without spaces in it's name**. 
+1. Download `daniGameIdler.rar` from [here](https://github.com/daniel-barbu/daniGameIdler/releases/latest), extract its contents to a **folder without spaces in its name**. 
 2. Download `SteamAchievementManager-x.x.xx.zip` from [here](https://github.com/gibbed/SteamAchievementManager/releases/latest), extract `SAM.API.dll` and `SAM.Game.exe` to the same folder.
 3. Edit `ids.txt` like so:
    1. The delay and the repetitions are up to you, but make sure they are in the correct format
@@ -10,4 +10,8 @@ daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/g
 4. Run `daniGameIdler.bat`.
 
 ### Known Issues
-- the folder in which the files are placed must not contain spaces in its name
+* the folder in which the files are placed must not contain spaces in its name
+* a SteamAchievementManager window will pop-up every x seconds, to have your desired windows always on top of those pop-ups use [AlwaysOnTop](https://github.com/daniel-barbu/AlwaysOnTop)
+
+### Screenshot
+![screenshot did not load correctly](/screenshot.png)

@@ -14,4 +14,4 @@ daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/g
 * a SteamAchievementManager window will pop-up every x seconds, to have your desired windows always on top of those pop-ups use [AlwaysOnTop](https://github.com/daniel-barbu/AlwaysOnTop)
 
 ### Screenshot
-![screenshot did not load correctly](/screenshot.png)
+![screenshot.png did not load correctly](/screenshot.png)

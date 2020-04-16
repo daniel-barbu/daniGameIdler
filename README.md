@@ -11,7 +11,7 @@ daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/g
 
 ### Known Issues
 * the folder in which the files are placed must not contain spaces in its name
-* a SteamAchievementManager window will pop-up every x seconds, to have your desired windows always on top of those pop-ups use [AlwaysOnTop](https://github.com/daniel-barbu/AlwaysOnTop)
+* a SteamAchievementManager window will pop-up every x seconds, to have your desired windows always on top use [AlwaysOnTop](https://github.com/daniel-barbu/AlwaysOnTop)
 
 ### Screenshot
 ![screenshot.png did not load correctly](/screenshot.png)

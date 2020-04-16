@@ -10,4 +10,4 @@ daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/g
 4. Run `daniGameIdler.bat`.
 
 ### Known Issues
-- the folder in which the files are placed must not contain spaces
+- the folder in which the files are placed must not contain spaces in its name

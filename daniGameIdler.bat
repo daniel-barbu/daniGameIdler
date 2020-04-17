@@ -31,12 +31,13 @@ exit
 	call :secToMin
 	title daniGameIdler (%gs%g)(%dly%s), repetition %rep%/%reps%, game %g%/%gs%, time left %minLeft%:%secLeft%
 	start %path%SAM.Game.exe %~1
-	echo. & echo idling game #%~1
+	echo idling game #%~1
 	set /a dly+=1
 	C:\Windows\System32\ping.exe localhost -n %dly% >nul
 	set /a dly-=1
 	set /a TimeLeft-=%dly%
 	C:\Windows\System32\taskkill.exe /F /IM SAM.Game.exe
+	echo.
 EXIT /B 0
 :secToMin
 	set /a minLeft=%timeLeft%/60

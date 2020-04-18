@@ -11,6 +11,7 @@ daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/g
 
 ### Known Issues
 * the folder in which the files are placed must not contain spaces in its name
+* if you stop receiving cards it might be a good idea to set all your [privacy settings](https://steamcommunity.com/id/me/edit/settings) to public
 * a SteamAchievementManager window will pop-up every x seconds, to have your desired windows always on top use [AlwaysOnTop](https://github.com/daniel-barbu/AlwaysOnTop)
 
 ### Screenshot

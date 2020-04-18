@@ -1,5 +1,6 @@
 # daniGameIdler
-daniGameIdler works by exploiting [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager), which it requires. 
+daniGameIdler is a batch program that quickly goes through your Steam games to simulate playing in order to recieve card drops which you can then sell on the Community Market. It does not require downloading the games.  
+It works by exploiting [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager), which it requires. 
 
 ### How to use
 1. Download `daniGameIdler.rar` from [here](https://github.com/daniel-barbu/daniGameIdler/releases/latest), extract its contents to a **folder without spaces in its name**. 

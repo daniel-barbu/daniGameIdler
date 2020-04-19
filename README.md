@@ -17,4 +17,4 @@ It works by exploiting [SteamAchievementManager](https://github.com/gibbed/Steam
   To have your desired windows always on top use [AlwaysOnTop](https://github.com/daniel-barbu/AlwaysOnTop).
 
 ### Screenshot
-![img/screenshot.png did not load correctly](/img/screenshot.png)
+![https://raw.githubusercontent.com/daniel-barbu/daniGameIdler/master/img/screenshot.png](/img/screenshot.png)
